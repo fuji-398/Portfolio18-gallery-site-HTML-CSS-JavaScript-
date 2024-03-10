@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta name="robots" content="noindex , nofollow" />
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <title>gallery site</title>
+        <meta name="description" content="gallery site training" />
+        <link rel="icon" href="img/favicon.ico" />
+
+        <!-- CSS-->
+        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style.min.css" />
+        <!-- クラス名の略語はCSSに記載しています-->
+        <!-- The abbreviation of class names is specified in CSS-->
+
+        <!-- Reference Site(参考サイト) https://code-jump.com/gallery-menu/ -->
+
+        <!-- jQueryを使用せず、作成しています。 -->
+        <!-- I'm creating it without using jQuery -->
+
+        <!--
+        <meta property="og:url" content="http://">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="title">
+        <meta property="og:description" content="text">
+        <meta property="og:image" content="http://">
+        -->
+    </head>
+
+    <body>
+        <header>
+            <h1 class="top_logo">
+                <a href="index.html"><img class="logo" src="img/logo.svg" alt="logo" /></a>
+            </h1>
+
+            <div class="toggle-btn-position">
+                <div class="toggle-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <nav>
+                <ul class="nav-list">
+                    <li><a class="js__nav" href="#mainvisual">top</a></li>
+                    <li><a class="js__nav" href="#information">information</a></li>
+                    <li><a class="js__nav" href="#gallery">gallery</a></li>
+                    <li><a class="js__nav" href="#access">access</a></li>
+                    <li><a class="js__nav" href="#contact">contact</a></li>
+                </ul>
+            </nav>
+
+            <aside class="aside">
+                <ul>
+                    <li><a href="#">for visitor</a></li>
+                    <li><a href="#">for exhibitor</a></li>
+                </ul>
+            </aside>
+            <!-- nav end  -->
+        </header>
+        <!-- header end  -->
+
+        <main>
+            <section id="mainvisual">
+                <div class="mainvisual-wpr">
+                    <img class="mainvisual-img" src="img/mainvisual1.jpg" alt="flower-img" />
+                    <img class="mainvisual-img" src="img/mainvisual2.jpg" alt="flower-img" />
+                    <img class="mainvisual-img" src="img/mainvisual3.jpg" alt="flower-img" />
+                </div>
+            </section>
+
+            <h2 class="js__inview page-tl">Hello Flower!<br />FA EXHIBITION 2021</h2>
+            <div class="wpr_w800_pd30">
+                <section class="info_ly">
+                    <h3 id="information" class="js__inview sect-tl">information</h3>
+                    <p class="js__inview info-day">2021 JUL 1(THU)-3(SAT)</p>
+                    <p class="js__inview info-time">DAY1 10am-6pm OTHER 10am-5:30pm</p>
+                    <p class="js__inview info-place">at PARK SIDE HALL</p>
+                    <p class="js__inview info-day-ja">2021年7月1日(木)ー3日(土)<br />Day1 10時～18時　その他 10時～17時30分</p>
+                </section>
+
+                <section class="gallery__ly">
+                    <h3 id="gallery" class="js__inview sect-tl">gallery</h3>
+
+                    <ul class="gallery-img__ly">
+                        <li><img class="js__inview" src="img/flower1.jpg" alt="flower-img" /></li>
+                        <li><img class="js__inview" src="img/flower2.jpg" alt="flower-img" /></li>
+                        <li><img class="js__inview" src="img/flower3.jpg" alt="flower-img" /></li>
+                        <li><img class="js__inview" src="img/flower4.jpg" alt="flower-img" /></li>
+                        <li><img class="js__inview" src="img/flower5.jpg" alt="flower-img" /></li>
+                        <li><img class="js__inview" src="img/flower6.jpg" alt="flower-img" /></li>
+                    </ul>
+                </section>
+            </div>
+
+            <section class="access_ly">
+                <div class="access__text-box">
+                    <h3 id="access" class="sect-tl">access</h3>
+
+                    <address class="access-info">
+                        <p>PARK SIDE HALL</p>
+                        <p>〒152-0035 東京都目黒区自由が丘1-1-1 PARK SIDE HALL<br />PARK SIDE HALL, 1-1-1 Jiyugaoka, Meguro-ku, Tokyo</p>
+                        <p>Tel: 03-1111-1111<br />E-mail: info@xxxxxxx.jp</p>
+                    </address>
+
+                    <button class="maplink-btn"><a href="#">google map</a></button>
+                </div>
+                <div class="bg-img"></div>
+            </section>
+
+            <section>
+                <div class="wpr_w800_pd30 contact__ly">
+                    <h3 id="contact" class="sect-tl">contact</h3>
+
+                    <button class="contact-btn"><a href="#">出展に関するお問い合わせ</a></button>
+                    <button class="contact-btn"><a href="#">その他のお問い合わせ</a></button>
+                </div>
+            </section>
+        </main>
+        <!-- main end  -->
+
+        <footer id="ftr">
+            <div class="company-info">
+                <p>FA EXHIBITION</p>
+                <p>〒152-0035 東京都目黒区自由が丘1-1-1 PARK SIDE HALL</p>
+                <p>Tel: 03-1111-1111</p>
+                <p>E-mail: info@xxxxxxx.jp</p>
+            </div>
+            <div class="sns-link_ly">
+                <ul class="sns-box">
+                    <li><a href="https://twitter.com/home" target="_blank">twitter</a></li>
+                    <li><a href="https://www.facebook.com" target="_blank">facebook</a></li>
+                    <li><a href="https://www.instagram.com" target="_blank">instagram</a></li>
+                </ul>
+                <div class="policy-copy-box">
+                    <a href="#">PRIVACY POLICY</a>
+                    <p class="copyright">&copy;FA EXHIBITION</p>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end  -->
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
