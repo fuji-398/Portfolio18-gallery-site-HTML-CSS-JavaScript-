@@ -1,4 +1,4 @@
-Below is a portfolio site I've created, taking inspiration from the design camp. It's pixel-perfect.
+Below is a portfolio site I've created, taking inspiration from the design camp. It's pixel-perfect.  
 下記のサイトを参考に、デザインカンプから作ったポートフォリオサイトです。ピクセルパーフェクトにしています。
 
 It's a dynamicFlower Arrangement Exhibition Website.  
